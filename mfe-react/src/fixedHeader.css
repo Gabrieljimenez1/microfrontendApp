@@ -15,7 +15,8 @@
 }
 
 .logo img {
-  height: 40px;
+  height: 45px;
+  transition: border-color 0.3s;
 }
 
 .menu ul {
@@ -27,15 +28,28 @@
 
 .menu li {
   margin-left: 20px;
+  position: relative;
 }
 
 .menu a {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
   font-weight: bold;
   font-size: 16px;
+  transition: color 0.3s;
 }
 
 .menu a:hover {
   text-decoration: underline;
+  color: #000000;
+}
+
+.menu li:hover {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.logo img:hover {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
 }
