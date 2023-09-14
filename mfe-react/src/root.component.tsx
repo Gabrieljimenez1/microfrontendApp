@@ -1,11 +1,12 @@
 import React from "react";
 import "./fixedHeader.css";
+import logo from "./imagenes/logo.jpg";
 
 const FixedHeader: React.FC = () => {
   return (
     <header className="fixed-header">
       <div className="logo">
-        <img src="./imagenes/logo.jpg" />
+        <img src = {logo} />
       </div>
       <nav className="menu">
         <ul>
